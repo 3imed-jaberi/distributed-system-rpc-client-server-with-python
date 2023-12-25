@@ -1,0 +1,32 @@
+1. Open the terminal, and please make sure to have pipenv or install it
+
+```shell
+python install pipenv
+```
+
+2. Enable the vitrual env
+
+```shell
+python -m pipenv shell
+```
+
+3. Install all dependancies
+
+```shell
+python -m pipenv install
+```
+
+4. Run the server 
+
+```shell
+python server.py
+```
+
+5. Open the terminal and enable the the vitrual env, then run the server 
+
+```shell
+python -m pipenv shell 
+python client.py
+```
+
+> If you have python 2.x and 3.x in your machine, make sure to replace python with python3.
